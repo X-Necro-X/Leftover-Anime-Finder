@@ -62,7 +62,7 @@ def createOrReadFile(path: str) -> str:
         return file.read().strip()
 
 def writeToFile(path: str, content: str) -> None:
-    with open(path, 'a+') as file:
+    with open(path, 'a+', encoding='UTF-8') as file:
         file.write(content)
 
 def fetchAnimeList(uid: int) -> str:
