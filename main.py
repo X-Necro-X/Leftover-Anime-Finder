@@ -87,7 +87,7 @@ def prepareSavedLeftovers() -> tuple[set[str], set[str]]:
         return leftoversId, leftoversName
     return set(), set()
 
-def fetchRelationsList(current: str):
+def fetchRelationsList(current: str) -> map:
     response = anilist('RELATIONS', {'current': current})
     rln = map(lambda x: x['node'], filter(lambda x: x['node']['type']!='MANGA', response))
     return rln
