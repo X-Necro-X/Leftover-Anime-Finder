@@ -11,7 +11,7 @@ Imagine having a handy solution that automatically compiles a concise list of al
 
 ## How to use?
 - Begin by acquiring the script file named "main.py." Once in your grasp, run it.
-- The script will eagerly request your Anilist ID; feed it. [How to get Anilist ID?](https://anilist.co/activity/640286132).
+- The script will eagerly request your Anilist ID; feed it. [How to get Anilist ID?](https://pastebin.com/dQFufyM8).
 - With your Anilist ID in hand, the script will embark on its journey. Watch it reveal the list of related content for each anime in your collection.
 - When the curtain falls, a new file, named "Leftovers.txt", will be created in the same directory. Inside, you'll find the list of all the content left to explore.
 
