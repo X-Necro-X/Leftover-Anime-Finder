@@ -132,7 +132,7 @@ def leftovers(uid: int) -> None:
 
 try:
     if __name__ == '__main__':
-        uid = 599228
+        uid = int(input('Enter your anilist id: '))
         leftovers(uid)
 
 except Exception as e:
