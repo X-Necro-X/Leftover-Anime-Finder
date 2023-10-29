@@ -126,7 +126,6 @@ def leftovers(uid: int) -> None:
                 saveLeftover(str(id), title)
         saveAddedAnime(str(current))
         time.sleep(1)
-    print('\n' + leftoversName + '\n')
     saveOutput(leftoversName)
     print('Please check file ' + OUTPUT + ' for complete list.')
 
